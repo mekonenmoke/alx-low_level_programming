@@ -1,13 +1,16 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
- *main - Print a string
+ * main - Entry point
+ * Return:1
  *
- * Description: use printf
- * Return: 0
  **/
 int main(void)
+
 {
-	printf("%s", "with proper grammar, but the outcome is a piece of art,\n");
-	return (0);
+	char ch[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(2, ch, sizeof(ch));
+	return (1);
 }
