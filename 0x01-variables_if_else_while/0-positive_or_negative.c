@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdlib.h>
 
-/*
- *print positive_or_negative
- *using if-else statement
- *return(0)
+/**
+ * main - entry point
+ * Description: print positive_or_negative
+ * Return: 0
  */
 int main(void)
 {
