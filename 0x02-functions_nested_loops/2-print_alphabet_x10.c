@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet-x10 - Entry point
  * Description: print small letter 10 times
  * Return: void
  */
